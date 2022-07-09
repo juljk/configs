@@ -1,0 +1,38 @@
+swipe:
+  3:
+    left:
+      command: 'xdotool key ctrl+Page_Down'
+    right:
+      command: 'xdotool key ctrl+Page_Up'
+    up:
+      command: 'xdotool key ctrl+alt+Down'
+    down:
+      command: 'xdotool key ctrl+alt+Up'
+  4:
+    left:
+      command: 'xdotool key super+Left'
+    right:
+      command: 'xdotool key super+Right'
+    up:
+      command: 'xdotool key ctrl+shift+alt+Down'
+    down:
+      command: 'xdotool key ctrl+shift+alt+Up'
+
+hold:
+  3:
+    command: 'xdotool key alt+1'
+
+tap:
+  3:
+    command: 'xdotool key alt+Left'
+  4:
+    command: 'xdotool key super'
+
+interval:
+  pinch: 0.3
+
+plugin:
+  inputs:
+    libinput_command_input:
+      enable-tap: true
+      verbose: true
