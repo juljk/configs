@@ -1,2 +1,3 @@
-# configs
-Configs
+# Configurations
+## [Fusuma](https://github.com/iberianpig/fusuma)
+
